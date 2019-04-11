@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+			<head>
+			<!-- include alertify.css -->
+			<link rel="stylesheet" href="css/alertify.css">
+			<link rel="stylesheet" href="css/microtip.css">
+			<link rel="stylesheet" href="css/style2.css">
+			<link href="preloader/preloader.css" rel="stylesheet">
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+			<!-- include alertify script -->
+			<script src="alertify.js"></script>
+
+			<script type="text/javascript">
+			function toast(){
+				alertify.success('hey mundo!');
+			
+			}
+				function alertar(){
+					window.showAlert = function(){
+					alertify.alert('<a href="javascript:showConfirm();">Show Confirm</a>');
+				}
+
+				window.showConfirm = function(){
+					alertify.confirm('<a href="javascript:showAlert();">Show Alert</a>');
+				}
+				//works with modeless too
+				alertify.alert().setting('modal', false);
+				alertify.confirm().setting('modal', false);
+
+				window.showAlert();
+				}
+				
+				
+			</script>
+			</head>
+		<body>
+		<header>
+		<h1>Volatus</h1>
+	</header>
+			<!--<button onclick="alertar()" > clicar </button>
+			<button aria-label="Hey tooltip!" data-microtip-position="up" role="tooltip"> teste </button>
+			<button onclick="toast()" >abrir toast</button>
+			<p>Date: <input type="text" id="datepicker"></p>-->
+			
+			<script src="preloader/preloader.js"></script>
+			  <script>
+			  $( function() {
+				$( "#datepicker" ).datepicker();
+			  } );
+			  </script>
+			  <body style="height: 100%">
+  <h1>Mãos a obra!</h1>
+  <button id="creaPostIt" class="icon-postit">FAZER</button>
+  <button id="creaPostIt" class="icon-postit">FAZENDO</button>
+  <button id="creaPostIt" class="icon-postit">FEITO</button>
+
+
+		</body>
+		  <script src='https://cdn.firebase.com/js/client/2.2.7/firebase.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+</body>
+
+</html>
