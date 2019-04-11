@@ -1,0 +1,357 @@
+
+E:\>cd SENAI
+
+E:\SENAI>cd 3°SEMESTRE
+O sistema não pode encontrar o caminho especificado.
+
+E:\SENAI>cd 3°semestre
+O sistema não pode encontrar o caminho especificado.
+
+E:\SENAI>cd 3° semestre
+
+E:\SENAI\3° semestre>cd robson
+
+E:\SENAI\3° semestre\robson>cd trabTrello
+O sistema não pode encontrar o caminho especificado.
+
+E:\SENAI\3° semestre\robson>cd trab_trello
+O sistema não pode encontrar o caminho especificado.
+
+E:\SENAI\3° semestre\robson>cd tipo_trello
+
+E:\SENAI\3° semestre\robson\tipo_trello>git clone https://github.com/TainaraCastro/trabalhoTrello.git
+Cloning into 'trabalhoTrello'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+E:\SENAI\3° semestre\robson\tipo_trello>cd TrabalhoTrello
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add -A
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git tatus
+git: 'tatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "up dos arquivos iniciais do projeto"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Everything up-to-date
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add -A
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "up dos arquivos iniciais do projeto"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add -A
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "up dos arquivos iniciais do projeto"
+[master 86100d0] up dos arquivos iniciais do projeto
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 teste.txt
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 50.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/TainaraCastro/trabalhoTrello.git
+   07111de..86100d0  master -> master
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        de nv.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "up dos arquivos iniciais do projeto"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+        de nv.txt.txt
+
+nothing added to commit but untracked files present
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Everything up-to-date
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        de nv.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "nova tentativa do outro arquivo"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+        de nv.txt.txt
+
+nothing added to commit but untracked files present
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add *
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "nova tentativa"
+[master 7432cdd] nova tentativa
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 de nv.txt.txt
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 285 bytes | 25.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/TainaraCastro/trabalhoTrello.git
+   86100d0..7432cdd  master -> master
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   teste.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add *
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "arquivo de texto"
+[master c1b088d] arquivo de texto
+ 1 file changed, 1 insertion(+)
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 261 bytes | 130.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TainaraCastro/trabalhoTrello.git
+   7432cdd..c1b088d  master -> master
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git pull
+Already up to date.
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add *
+warning: LF will be replaced by CRLF in README.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in alertify.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/alertify.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/alertify.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/microtip.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/style2.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/themes/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/themes/bootstrap.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/themes/default.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/themes/default.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/themes/semantic.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/themes/semantic.rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/index2.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in license.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in post-it-js/README.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in post-it-js/css/style2.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in post-it-js/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in post-it-js/js/index2.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in post-it-js/license.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in preloader/Readme.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in preloader/demonstration.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in preloader/div.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in preloader/light-loader-demo.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in preloader/light-loader.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in preloader/preloader.js.
+The file will have its original line endings in your working directory
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "enviamdo arquivos"
+[master 4aee055] enviamdo arquivos
+ 39 files changed, 7244 insertions(+)
+ create mode 100644 README.txt
+ create mode 100644 alertify.js
+ create mode 100644 alertify.min.js
+ create mode 100644 css/alertify.css
+ create mode 100644 css/alertify.min.css
+ create mode 100644 css/alertify.rtl.css
+ create mode 100644 css/alertify.rtl.min.css
+ create mode 100644 css/microtip.css
+ create mode 100644 css/style.css
+ create mode 100644 css/style2.css
+ create mode 100644 css/themes/bootstrap.css
+ create mode 100644 css/themes/bootstrap.min.css
+ create mode 100644 css/themes/bootstrap.rtl.css
+ create mode 100644 css/themes/bootstrap.rtl.min.css
+ create mode 100644 css/themes/default.css
+ create mode 100644 css/themes/default.min.css
+ create mode 100644 css/themes/default.rtl.css
+ create mode 100644 css/themes/default.rtl.min.css
+ create mode 100644 css/themes/semantic.css
+ create mode 100644 css/themes/semantic.min.css
+ create mode 100644 css/themes/semantic.rtl.css
+ create mode 100644 css/themes/semantic.rtl.min.css
+ create mode 100644 index_oi.html
+ create mode 100644 js/index.js
+ create mode 100644 js/index2.js
+ create mode 100644 license.txt
+ create mode 100644 post-it-js/README.txt
+ create mode 100644 post-it-js/css/style2.css
+ create mode 100644 post-it-js/index.html
+ create mode 100644 post-it-js/js/index2.js
+ create mode 100644 post-it-js/license.txt
+ create mode 100644 preloader/Readme.md
+ create mode 100644 preloader/demonstration.js
+ create mode 100644 preloader/div.js
+ create mode 100644 preloader/light-loader-demo.js
+ create mode 100644 preloader/light-loader.js
+ create mode 100644 preloader/preloader.css
+ create mode 100644 preloader/preloader.js
+ create mode 100644 preloader/time.js
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (40/40), done.
+Writing objects: 100% (42/42), 54.76 KiB | 3.22 MiB/s, done.
+Total 42 (delta 14), reused 0 (delta 0)
+remote: Resolving deltas: 100% (14/14), done.
+To https://github.com/TainaraCastro/trabalhoTrello.git
+   c1b088d..4aee055  master -> master
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add *
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "Alteração do texte.txt"
+[master 9bc008b] Alteração do texte.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 273 bytes | 136.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TainaraCastro/trabalhoTrello.git
+   4aee055..9bc008b  master -> master
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add *
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index_oi.html
+
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "Alteração do index"
+[master 2d5d040] Alteração do index
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 319 bytes | 159.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/TainaraCastro/trabalhoTrello.git
+   9bc008b..2d5d040  master -> master
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git add *
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git commit -m "arquivo txt com todos os comandos desta página"
+[master 08f6ce9] arquivo txt com todos os comandos desta página
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt.txt
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 280 bytes | 140.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/TainaraCastro/trabalhoTrello.git
+   2d5d040..08f6ce9  master -> master
+
+E:\SENAI\3° semestre\robson\tipo_trello\trabalhoTrello>
